@@ -35,27 +35,47 @@ body{
 .caja{
     background-color: var(--Moderateviolet);
     padding: 3rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    bottom: 0%;
     border-radius: 0.5rem;
+}
+
+.comillas{
+    
 }
 
 .caja h2{
     color: var(--White);
     font-size: 1rem;
-    margin: 1rem;
+
+}
+
+.basura{
+    display: flex;
+    justify-content: space-between;
 }
 
 .Daniel{
     border-radius: 5rem;
-    
+    width: 4rem;
+    height: 4rem;
 }
 
 .caja p{
     color: var(--White);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 24px;
 }
 
 .caja span{
     color: var(--Lightgray);
+    font-size: 1.1rem;
+    position: relative;
+    
+    
 }
 
 .caja1{
