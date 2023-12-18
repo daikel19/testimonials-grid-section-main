@@ -25,11 +25,13 @@ body{
     margin: 0% auto;
     background-color: var(--Lightgray);
     font-family: var(--font-family);
+
 }
 
 .contenedor{
     margin-top: 0% auto;
     padding: 1rem;
+
 }
 
 .caja{
@@ -38,18 +40,19 @@ body{
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    bottom: 0%;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    max-height: 42rem;
 }
 
 .comillas{
-    
+    position: relative;
+    bottom: 3rem;
 }
 
 .caja h2{
     color: var(--White);
     font-size: 1rem;
-
+    margin-right: 1rem;
 }
 
 .basura{
@@ -66,37 +69,58 @@ body{
 .caja p{
     color: var(--White);
     font-size: 2rem;
-    margin-bottom: 20px;
-    line-height: 24px;
+    padding: 0.5rem;
+}
+
+.parrafo{
+    bottom: 8rem;
+    position: relative;
 }
 
 .caja span{
     color: var(--Lightgray);
     font-size: 1.1rem;
     position: relative;
-    
-    
+    bottom: 8rem;
 }
 
 .caja1{
     background-color: var(--Verydarkgrayishblue);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin: 2rem;
+    padding: 3rem;
+    margin: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.basura2{
+    display: flex;
+    justify-content: space-between;
 }
 
 .Jonathan{
     border-radius: 5rem; 
+    width: 4rem;
+    height: 4rem;
 }
 
-.caja1 h2{
+.caja1 pre{
     color: var(--White);
+    font-family: var(--font-family);
     font-size: 1rem;
-    margin: 1rem;
+    margin-right: 19rem;
 }
 
 .caja1 p{
     color: var(--White);
+    font-size: 2rem;
+}
+
+.parrafo2{
+    color: var(--Lightgray);
+    font-size: 1.1rem;
+    
+    
 }
 
 .caja2{
@@ -108,6 +132,8 @@ body{
 
 .Jeanette{
     border-radius: 5rem; 
+    width: 4rem;
+    height: 4rem;
 }
 
 .caja3{
@@ -119,6 +145,8 @@ body{
 
 .Patrick{
     border-radius: 5rem; 
+    width: 4rem;
+    height: 4rem;
 }
 
 .caja4{
@@ -131,6 +159,8 @@ body{
 
 .Kira{
     border-radius: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 
