@@ -52,12 +52,13 @@ body{
 .caja h2{
     color: var(--White);
     font-size: 1rem;
-    margin-right: 1rem;
+   
 }
 
 .basura{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .Daniel{
@@ -86,16 +87,16 @@ body{
 
 .caja1{
     background-color: var(--Verydarkgrayishblue);
-    padding: 3rem;
-    margin: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
 }
 
 .basura2{
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .Jonathan{
@@ -107,8 +108,7 @@ body{
 .caja1 pre{
     color: var(--White);
     font-family: var(--font-family);
-    font-size: 1rem;
-    margin-right: 19rem;
+   
 }
 
 .caja1 p{
@@ -116,31 +116,57 @@ body{
     font-size: 2rem;
 }
 
+
 .parrafo2{
     color: var(--Lightgray);
     font-size: 1.1rem;
-    
-    
 }
 
 .caja2{
     background-color: var(--White);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 0.5rem;
     margin: 2rem;
 }
 
 .Jeanette{
-    border-radius: 5rem; 
+    border-radius: 4rem; 
     width: 4rem;
     height: 4rem;
 }
 
+.caja2 p{
+    color: var(--Verydarkblackishblue);
+    font-size: 2rem;
+}
+
+
+
 .caja3{
     background-color: var(--Verydarkblackishblue);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 0.5rem;
     margin: 2rem;
+}
+
+.caja2 pre{
+   font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+
+.basura3{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.parrafo3{
+    color: var(--Lightgray);
+    font-size: 1.2rem;
 }
 
 .Patrick{
@@ -149,9 +175,33 @@ body{
     height: 4rem;
 }
 
+
+.caja3 pre{
+    font-family: var(--font-family);
+    font-size: 1rem;
+    color: var(--White);
+}
+
+.caja3 p{
+    color: var(--White);
+    font-size: 2rem;
+}
+
+.parrafo4{
+    color: var(--Lightgray);
+    font-size: 1.1rem;
+}
+
+.basura4{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+}
+
 .caja4{
     background-color: var(--White);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 0.5rem;
     margin: 2rem;
 }
@@ -161,6 +211,29 @@ body{
     border-radius: 5rem;
     width: 4rem;
     height: 4rem;
+}
+
+.caja4 pre{
+    font-family: var(--font-family);
+    font-size: 1rem;
+    
+}
+
+.caja4 p{
+    color: var(--Verydarkblackishblue);
+    font-size: 1.9rem;
+}
+
+.basura5{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.parrafo5{
+    font-size: 1.2rem;
+    color: var(--Lightgray);
 }
 
 
