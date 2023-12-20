@@ -88,7 +88,7 @@ body{
 .caja1{
     background-color: var(--Verydarkgrayishblue);
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     margin: 2rem;
 }
 
@@ -125,7 +125,7 @@ body{
 .caja2{
     background-color: var(--White);
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     margin: 2rem;
 }
 
@@ -145,7 +145,7 @@ body{
 .caja3{
     background-color: var(--Verydarkblackishblue);
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     margin: 2rem;
 }
 
@@ -202,7 +202,7 @@ body{
 .caja4{
     background-color: var(--White);
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     margin: 2rem;
 }
 
